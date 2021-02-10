@@ -427,3 +427,58 @@ img {
     right: 2%;
     top: calc(50% - 70px);
 }
+
+.contenedor-3 {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+    background: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-3 .foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.contenedor-3 .Informacion{
+    height: 100%;
+    width: 50%;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-3 .foto img{
+    width: 200px;
+    height: 300px;
+    border-radius: 100px;
+}
+
+.contenedor-3 .Informacion h2{
+    margin: 20px;
+    border-bottom: 1px solid black;
+
+}
+
+.contenedor-3 .Informacion h4{
+    margin: 10px
+}
+
+.contenedor-3 .Informacion p{
+    margin: 5px;
+    width: 50%;
+}
